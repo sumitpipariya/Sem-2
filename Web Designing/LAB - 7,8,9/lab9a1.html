@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lab 9A</title>
+	<style type="text/css">
+		body{
+			height: 100vh;
+			border: 1px solid black;
+		}
+		.main{
+			height: 100%;
+			width: 100%;
+		}
+		.block{
+			height: 50%;
+			width: 50%;
+			animation-name: block1;
+			animation-duration: 3s;
+			animation-fill-mode: forwards;
+		}
+		@keyframes block1{
+			from{
+				background-color: red;
+			}
+			to{
+				background-color: green;
+			}
+		}
+
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="block"></div>
+	</div>
+</body>
+</html>
